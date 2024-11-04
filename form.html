@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+
+<body>
+  <form action="https://www.w3schools.com/action_page.php" target="_blank">
+    <label for="fullName">Name: </label>
+    <input id="fullName" name="name" type="text" maxlength="9" required><br>
+
+
+    <input type="submit" value="Submit">
+
+  </form>
+  <!-- <form action="https://www.w3schools.com/action_page.php" target="_blank" method="post" autocomplete="off" novalidate>
+    <label for="fullName">Name: </label>
+    <input id="fullName" name="name" type="text" value="quoc" maxlength="9"><br>
+
+    <input type="number" name="age" placeholder="age" min="1" max="100"> <br>
+    <label for="cccd">CCCD: </label>
+    <input id="cccd" name="cccd" type="text" value="qu35353754" readonly><br>
+
+    <label for="sex_id">Sex: </label>
+    <select name="sex" id="sex_id">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="LGBT">LGBT</option>
+    </select><br>
+
+    <label for="dateOfBirth">Ngay sinh: </label>
+    <input type="date" name="dateOfBirth" id="dateOfBirth">
+    <input type="time"><br>
+
+    <input type="file" name="upload_file">
+
+    <label for="note">Note: </label>
+    <textarea name="note" id="note" rows="5" cols="40"></textarea>
+
+
+    <button>submit</button>
+
+  </form> -->
+
+
+  <form action="https://www.w3schools.com/action_page.php" target="_blank">
+    <!-- defaut: method="get" -->
+    <p>Ban biet may loai ngon ngu</p>
+    <input type="checkbox" id="nnc" name="language" value="c">
+    <label for="nnc">C</label><br>
+
+    <input type="checkbox" id="nnjava" name="language" value="java">
+    <label for="nnjava">JAVA</label><br>
+
+    <input type="checkbox" id="nnphp" name="language" value="php">
+    <label for="nnphp">PHP</label><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <form action="https://www.w3schools.com/action_page.php" target="_blank">
+    <!-- defaut: method="get" -->
+    <p>Ban thich ngon ngu nhat</p>
+    <input type="radio" id="fc" name="language" value="c">
+    <label for="fc">C</label><br>
+
+    <input type="radio" id="fjava" name="language" value="java">
+    <label for="fjava">JAVA</label><br>
+
+    <input type="radio" id="fphp" name="language" value="php">
+    <label for="fphp">PHP</label><br>
+    <input type="range" name="volume" min="0" max="100" step="2"><br>
+    <input type="color" name="color"> <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
