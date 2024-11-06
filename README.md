@@ -7,5 +7,18 @@
 
 ## Bootstrap
 **Link Bootstrap:** https://getbootstrap.com/docs/4.6/getting-started/introduction/
+
+## Container
 <img src="assets/images/container.jpg"/>
-<img src="assets/images/grid.jpg"/>
+
+## Container Fluid
+<img src="assets/images/container-fluid.jpg"/>
+
+## PC first
+<img src="assets/images/PCfirst.jpg"/>
+
+## Grid
+<img src="assets/images/grid-col.jpg"/>
+
+
+

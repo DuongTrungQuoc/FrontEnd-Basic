@@ -4,6 +4,10 @@
   padding: 60px 0;
 }
 
+.section-1 .inner-box {
+  margin: 15px 0;
+}
+
 .section-1 .inner-box i {
   color: #5CB874;
   font-size: 36px;
@@ -19,3 +23,21 @@
 }
 
 /* End Section 1 */
+
+/* Section About*/
+.section-about .inner-image img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 991.98px) {
+  .section-about .inner-left {
+    order: 1;
+  }
+
+  .section-about .inner-content {
+    margin-top: 30px;
+  }
+}
+
+/*End Section About*/
