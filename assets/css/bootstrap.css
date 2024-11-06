@@ -1,0 +1,21 @@
+/* Section 1 */
+.section-1 {
+  background: #F9FCF9;
+  padding: 60px 0;
+}
+
+.section-1 .inner-box i {
+  color: #5CB874;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section-1 .inner-box .inner-title {
+  font-size: 20px;
+}
+
+.section-1 .inner-box .inner-desc {
+  font-size: 14px;
+}
+
+/* End Section 1 */
