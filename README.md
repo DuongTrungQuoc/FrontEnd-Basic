@@ -7,3 +7,5 @@
 
 ## Bootstrap
 **Link Bootstrap:** https://getbootstrap.com/docs/4.6/getting-started/introduction/
+<img src="assets/images/container.jpg"/>
+<img src="assets/images/grid.jpg"/>
